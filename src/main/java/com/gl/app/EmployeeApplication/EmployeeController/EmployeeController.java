@@ -11,6 +11,7 @@ public class EmployeeController {
     @GetMapping("/employees")
     public String getEmployee()
     {
+        System.out.println("Hello world");
         return "Employee details";
     }
 
